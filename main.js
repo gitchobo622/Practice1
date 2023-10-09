@@ -6,7 +6,7 @@ app.listen(3020, ()=> {
 });
 
 app.get('/' , (req, res) => {
-    res.send('루트에 대한 요청')
+    res.send('/ 로 들어온 루트에 대한 요청')
 })
 
 app.get('/about' , (req, res) => {
