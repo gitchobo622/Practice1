@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in 페이지</title>
+</head>
+<body>
+    <h1>사용자 로그인</h1>
+    <br>
+    <form method="post" action='/process/login'> <!--액션은 여기 url 주소로 폼태그의 post내용에 대한 response를 줄 action. -->
+    <table>
+        <tr>
+            <td><label>아이디</label></td>
+            <td><input type="text" name="id"></td>
+        </tr>
+        <tr>
+            <td><label>페스워드</label></td>
+            <td><input type="password" name="password"></td>
+        </tr>
+    </table>
+    <input type="submit" value="로그인">
+</form>
+</body>
+</html>
